@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+h1 
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+}
+.Broma
+{
+    margin-top: 20%;
+}
+a
+{
+    color: brown;
+}
+footer
+{
+    margin-top: 17%;
+    text-align: center;
+}
+@media (max-width: 1048px){
+    h1{
+        text-align: center;
+        margin-top: 25%;
+        transition: 0.5s;
+        font-size: 20px;
+    }
+    .Broma{
+        padding: 2%;
+        font-size: 15px;
+    }
+    footer{
+        margin-top: 55%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
